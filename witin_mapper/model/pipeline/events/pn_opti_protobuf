@@ -1,0 +1,45 @@
+layerOptiConfig {
+    name : "conv1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 2
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        
+        
+    }
+}
+
+layerOptiConfig {
+    name : "conv2"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 4
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        
+        
+    }
+}

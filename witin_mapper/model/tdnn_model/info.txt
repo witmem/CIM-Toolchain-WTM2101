@@ -1,0 +1,5 @@
+input=440
+out=3248
+scale = [512,512,512,512,512]
+nnet_out_scale = 1/4 # DNN输出缩放倍数
+note="基于730训练的TDNN，1号机路径:/home/dell/kaldi-trunk/egs/baseline_v2/s5/exp/tri4b_nnet3_20200730_TDNN_normal_mingzhu/100.mdl or final.mdl"

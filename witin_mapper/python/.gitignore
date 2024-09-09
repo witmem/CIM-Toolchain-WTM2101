@@ -1,0 +1,4 @@
+build
+dist
+*.cpp
+!tvm/relay/witin/chips/build/lib.linux-x86_64-3.6

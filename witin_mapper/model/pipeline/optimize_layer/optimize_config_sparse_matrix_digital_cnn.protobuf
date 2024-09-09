@@ -1,0 +1,17 @@
+layerOptiConfig {
+    name : "cnn_node"
+    inputOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        sp_mode : DIG_MODE
+    }
+}

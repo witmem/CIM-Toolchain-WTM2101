@@ -1,0 +1,15 @@
+layerOptiConfig {
+    name : "lstm_node1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 100
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+}

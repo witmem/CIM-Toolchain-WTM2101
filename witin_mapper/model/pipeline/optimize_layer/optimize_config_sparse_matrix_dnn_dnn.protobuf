@@ -1,0 +1,34 @@
+layerOptiConfig {
+    name : "dnn_node1"
+    inputOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        sp_mode : MIX_MODE
+    }
+}
+layerOptiConfig {
+    name : "dnn_node2"
+    inputOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        sp_mode : MIX_MODE
+    }
+}

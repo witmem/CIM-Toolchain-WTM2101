@@ -1,0 +1,11 @@
+prefix=/home/jch/or-tools/dependencies/install
+exec_prefix=/home/jch/or-tools/dependencies/install
+libdir=/home/jch/or-tools/dependencies/install/lib
+includedir=/home/jch/or-tools/dependencies/install/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.7.1.0
+Libs: -L${libdir} -lprotobuf pthread
+Cflags: -I${includedir} pthread
+Conflicts: protobuf-lite

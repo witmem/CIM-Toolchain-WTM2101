@@ -1,0 +1,17 @@
+layerOptiConfig {
+    name : "gemm_node1"
+    inputOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        sp_mode : DIG_MODE
+    }
+}

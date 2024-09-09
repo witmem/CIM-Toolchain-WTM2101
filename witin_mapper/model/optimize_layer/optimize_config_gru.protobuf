@@ -1,0 +1,47 @@
+layerOptiConfig {
+    name : "dnn1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 128
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+}
+
+layerOptiConfig {
+    name : "gru_node1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 128
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+}
+
+layerOptiConfig {
+    name : "dnn3"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 448
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+}

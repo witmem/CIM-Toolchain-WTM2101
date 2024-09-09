@@ -1,0 +1,64 @@
+layerOptiConfig {
+    name : "linear1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 387
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    } 
+}
+
+layerOptiConfig {
+    name : "gru4"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 128
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {        
+    }    
+}
+
+layerOptiConfig {
+    name : "linear5"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 128
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    } 
+}

@@ -1,0 +1,198 @@
+layerOptiConfig {
+    name : "net0_Conv2DOpNode1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 2
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode2"
+    inputOpti {
+        shift : 1
+        num : 1
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode3"
+    inputOpti {
+        shift : 1
+        num : 1
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode4"
+    inputOpti {
+        shift : 1
+        num : 1
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode5"
+    inputOpti {
+        shift : 1
+        num : 1
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode6"
+    inputOpti {
+        shift : 1
+        num : 1
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode7"
+    inputOpti {
+        shift : 1
+        num : 1
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode8"
+    inputOpti {
+        shift : 1
+        num : 1
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode9"
+    inputOpti {
+        shift : 1
+        num : 1
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode10"
+    inputOpti {
+        shift : 1
+        num : 1
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode11"
+    inputOpti {
+        shift : 1
+        num : 1
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}

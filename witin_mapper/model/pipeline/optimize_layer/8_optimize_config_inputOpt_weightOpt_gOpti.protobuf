@@ -1,0 +1,112 @@
+layerOptiConfig {
+    name : "cnn_1"
+    inputOpti {
+        shift : 1
+        num : 2
+        front_scale : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+
+}
+layerOptiConfig {
+    name : "cnn_2"
+    inputOpti {
+        shift : 1
+        num : 1
+        front_scale : 1
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+
+}
+layerOptiConfig {
+    name : "cnn_3"
+    inputOpti {
+        shift : 1
+        num : 1
+        front_scale : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+
+}
+layerOptiConfig {
+    name : "dnn_input_1"
+    inputOpti {
+        shift : 0
+        num : 0
+        front_scale : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+
+}
+layerOptiConfig {
+    name : "dnn_post_1"
+    inputOpti {
+        shift : 1
+        num : 1
+        front_scale : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+
+}
+layerOptiConfig {
+    name : "dnn_gru_out_1"
+    inputOpti {
+        shift : 1
+        num : 1
+        front_scale : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+
+}
+layerOptiConfig {
+    name : "dnn_bn_1"
+    inputOpti {
+        shift : 1
+        num : 1
+        front_scale : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+
+}

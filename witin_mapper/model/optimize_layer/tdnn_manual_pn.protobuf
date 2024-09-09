@@ -1,0 +1,94 @@
+layerOptiConfig {
+  name : "tdnn_node1"
+  inputOpti {
+    shift : 0
+    num : 0
+    signed_input : 1024
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    multi_point: 0
+  }
+}
+
+layerOptiConfig {
+  name : "tdnn_node2"
+  inputOpti {
+    shift : 0
+    num : 0
+    signed_input : 1024
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    multi_point: 0
+  }
+}
+
+layerOptiConfig {
+  name : "tdnn_node10"
+  inputOpti {
+    shift : 0
+    num : 0
+    signed_input : 1024
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    multi_point: 0
+  }
+}
+
+layerOptiConfig {
+  name : "tdnn_node11"
+  inputOpti {
+    shift : 0
+    num : 0
+    signed_input : 1024
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    multi_point: 0
+  }
+}
+
+layerOptiConfig {
+  name : "tdnn_node12"
+  inputOpti {
+    shift : 0
+    num : 0
+    signed_input : 1024
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    multi_point: 0
+  }
+}

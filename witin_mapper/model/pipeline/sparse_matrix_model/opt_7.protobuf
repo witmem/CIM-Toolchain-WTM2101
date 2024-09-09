@@ -1,0 +1,51 @@
+layerOptiConfig {
+    name : "tdnn_0"
+    inputOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        enable : 0
+    }
+}
+layerOptiConfig {
+    name : "tdnn_1"
+    inputOpti {
+        shift : 1
+        num : 1
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 1
+    }
+    sparseMatrixOpti {
+        enable : 0
+    }
+}
+layerOptiConfig {
+    name : "tdnn_2"
+    inputOpti {
+        shift : 1
+        num : 1
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 1
+    }
+    sparseMatrixOpti {
+        enable : 0
+    }
+}

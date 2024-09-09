@@ -1,0 +1,18 @@
+layerOptiConfig {
+  name : "gru_node1"
+  inputOpti {
+    shift : 0
+    num : 0
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+    region : UP_REGION 
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    tdnn_mode: false
+  }
+}

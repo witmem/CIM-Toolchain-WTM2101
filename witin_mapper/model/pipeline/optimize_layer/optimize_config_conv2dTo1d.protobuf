@@ -1,0 +1,61 @@
+layerOptiConfig {
+    name : "net0_Conv2DOpNode1"
+    inputOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        sp_mode : 0
+    }
+    convOpti {
+        tdnn_mode : 1
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode2"
+    inputOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        sp_mode : 0
+    }
+    convOpti{
+        tdnn_mode : 1
+    }
+}
+layerOptiConfig {
+    name : "net0_Conv2DOpNode3"
+    inputOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        sp_mode : 0
+    }
+    convOpti{
+        conver_to_1d : 1
+    }
+}
+

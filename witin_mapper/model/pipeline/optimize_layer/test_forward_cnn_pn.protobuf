@@ -1,0 +1,8 @@
+layerOptiConfig {
+    name : "cnn_node"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 10
+    }
+}

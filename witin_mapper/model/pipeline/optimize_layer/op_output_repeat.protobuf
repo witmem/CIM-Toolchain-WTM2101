@@ -1,0 +1,8 @@
+layerOptiConfig {
+  name: "dense_op4"
+  doubleWeightOpti {
+  }
+  arrayOutputOpti {
+    repeat: 2 
+  }
+}

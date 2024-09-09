@@ -1,0 +1,90 @@
+layerOptiConfig {
+  name : "conv2d_node1"
+  inputOpti {
+    shift : 0
+    num : 0
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    tdnn_mode : 1
+  }
+}
+
+layerOptiConfig {
+  name : "conv2d_node2"
+  inputOpti {
+    shift : 0
+    num : 0
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    tdnn_mode : 1
+  }
+}
+
+layerOptiConfig {
+  name : "conv2d_node3"
+  inputOpti {
+    shift : 0
+    num : 0
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    tdnn_mode : 1
+  }
+}
+
+layerOptiConfig {
+  name : "conv2d_node4"
+  inputOpti {
+    shift : 0
+    num : 0
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    tdnn_mode : 1
+  }
+}
+
+layerOptiConfig {
+  name : "conv2d_node5"
+  inputOpti {
+    shift : 0
+    num : 0
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    tdnn_mode : 1
+  }
+}
+

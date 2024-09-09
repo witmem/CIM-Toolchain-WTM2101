@@ -1,0 +1,37 @@
+layerOptiConfig {
+    name : "grlinear1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 375
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    } 
+}
+
+layerOptiConfig {
+    name : "grlinear2"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    } 
+}

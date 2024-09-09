@@ -1,0 +1,67 @@
+layerOptiConfig {
+    name : "gru_node1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 50
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }   
+}
+
+layerOptiConfig {
+    name : "gru_node2"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 50
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }   
+}
+
+layerOptiConfig {
+    name : "dnn_node"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 50
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }   
+}

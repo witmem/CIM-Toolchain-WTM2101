@@ -1,0 +1,83 @@
+layerOptiConfig {
+    name : "conv1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    convOpti {
+        multi_point : 1
+        conv2DToConv1D_enable: true
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv2"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    convOpti {
+        multi_point : 1
+        conv2DToConv1D_enable: true
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv3"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    convOpti {
+        multi_point : 1
+        conv2DToConv1D_enable: true
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv4"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    convOpti {
+        multi_point : 1
+        conv2DToConv1D_enable: true
+    }
+
+}

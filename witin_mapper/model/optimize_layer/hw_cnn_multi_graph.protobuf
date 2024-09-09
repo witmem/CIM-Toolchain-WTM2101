@@ -1,0 +1,568 @@
+
+layerOptiConfig {
+    name : "conv_left_prescale_1"
+    inputOpti {
+        signed_input : 8
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+    convOpti {
+        multi_point : 4
+        conv2DToConv1D_enable: true
+    }
+}
+
+
+layerOptiConfig {
+    name : "conv_left_prescale_2"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_3"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+    convOpti {
+        multi_point : 2
+        conv2DToConv1D_enable: true
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_4"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_5"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+    convOpti {
+        multi_point : 2
+        conv2DToConv1D_enable: true
+    }
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_6"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+    convOpti {
+        multi_point : 2
+        conv2DToConv1D_enable: true
+    }
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_7"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_8"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_9"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+    convOpti {
+        multi_point : 2
+        conv2DToConv1D_enable: true
+    }
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_10"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_11"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_12"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_13"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_14"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_15"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv_left_prescale_16"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv1_right"
+    inputOpti {
+        signed_input : 1
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+    convOpti {
+        multi_point : 4
+        conv2DToConv1D_enable: true
+    }
+
+}
+
+
+layerOptiConfig {
+    name : "conv2_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+    convOpti {
+        multi_point : 2
+        conv2DToConv1D_enable: true
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv3_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+    convOpti {
+        multi_point : 2
+        conv2DToConv1D_enable: true
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv4_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+    convOpti {
+        multi_point : 4
+        conv2DToConv1D_enable: true
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv5_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+    convOpti {
+        multi_point : 2
+        conv2DToConv1D_enable: true
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv6_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+    convOpti {
+        multi_point : 2
+        conv2DToConv1D_enable: true
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv7_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+
+}
+
+layerOptiConfig {
+    name : "conv8_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv9_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+    convOpti {
+        multi_point : 2
+        conv2DToConv1D_enable: true
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv10_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv11_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv12_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv13_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv14_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv15_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "conv16_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+
+    }
+
+}
+
+layerOptiConfig {
+    name : "linear_left"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+}
+
+layerOptiConfig {
+    name : "linear_right"
+    inputOpti {
+        signed_input : 0
+    }
+    weightOpti {
+    }
+    doubleWeightOpti {
+    }
+    sparseMatrixOpti {
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+input=440
+out=3248
+layers=[448,448,448,448,916]
+G=[512,512,512,512,512]
+out_scale=1/8
+note="基于730数据训练的中间层为448的模型，用于BB04测试，编号DNN200730Mini，简称730M，retrain训练，以使权重分布更符合正态化。2号机路径:/home/dell/kaldi-trunk/egs/baseline_v2/s5/exp/tri4b_nnet3_20200730_mini_retrain/work_nnet3/119.mdl"

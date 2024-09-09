@@ -1,0 +1,42 @@
+layerOptiConfig {
+    name : "conv_left_prescale_1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 8
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    
+      
+    
+}
+
+layerOptiConfig {
+    name : "conv1_right"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 1
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    
+    
+}

@@ -1,0 +1,15 @@
+layerOptiConfig {
+    name : "tdnn1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 120
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 1
+    }
+}

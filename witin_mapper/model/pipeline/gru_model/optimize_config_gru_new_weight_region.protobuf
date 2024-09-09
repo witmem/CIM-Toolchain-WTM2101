@@ -1,0 +1,16 @@
+layerOptiConfig {
+    name : "gru_node1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+        region : UP_REGION
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+}

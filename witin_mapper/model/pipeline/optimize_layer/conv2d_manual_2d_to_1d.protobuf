@@ -1,0 +1,17 @@
+layerOptiConfig {
+  name : "conv2d_node1"
+  inputOpti {
+    shift : 0
+    num : 0
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : 0
+  }
+  convOpti {
+    conv2DToConv1D_enable: true
+  }
+}

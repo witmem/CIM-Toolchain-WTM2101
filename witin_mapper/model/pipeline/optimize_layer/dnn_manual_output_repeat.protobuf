@@ -1,0 +1,17 @@
+layerOptiConfig {
+  name : "gem_node1"
+  inputOpti {
+    shift : 0
+    num : 0
+  }
+  weightOpti {
+    shift : 0
+    num : 0
+  }
+  sparseMatrixOpti {
+    sp_mode : SIM_MODE
+  }
+  arrayOutputOpti {
+    repeat: 2 
+  }
+}

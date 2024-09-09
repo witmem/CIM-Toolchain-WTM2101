@@ -1,0 +1,2 @@
+witin_mapper/model/pipeline/auto_optimizer_model/auto_optimizer_tc_resnet/params/left/input_left.npy filter=lfs diff=lfs merge=lfs -text
+witin_mapper/build/libwitin.so filter=lfs diff=lfs merge=lfs -text

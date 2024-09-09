@@ -1,0 +1,18 @@
+layerOptiConfig {
+    name : "conv1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : -1
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    convOpti {
+        multi_point: 2
+    }
+}

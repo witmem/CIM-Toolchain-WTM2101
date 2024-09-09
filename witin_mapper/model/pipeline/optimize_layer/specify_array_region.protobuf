@@ -1,0 +1,30 @@
+layerOptiConfig {
+    name : "tdnn_op1"
+    weightOpti {
+        region : UP_REGION 
+    }
+}
+layerOptiConfig {
+    name : "dense_op1"
+    weightOpti {
+        region : DOWN_REGION 
+    }
+}
+layerOptiConfig {
+    name : "dense_op2"
+    weightOpti {
+        region : UP_REGION 
+    }
+}
+layerOptiConfig {
+    name : "dense_op3"
+    weightOpti {
+        region : DOWN_REGION 
+    }
+}
+layerOptiConfig {
+    name : "dense_op4"
+    weightOpti {
+        region : UP_REGION 
+    }
+}

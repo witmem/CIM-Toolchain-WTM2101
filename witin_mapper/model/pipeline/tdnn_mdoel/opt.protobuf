@@ -1,0 +1,146 @@
+layerOptiConfig {
+    name : "tdnn_1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+    }
+}
+layerOptiConfig {
+    name : "tdnn_2"
+    inputOpti {
+        shift : 1
+        num : 1
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+    }
+}
+layerOptiConfig {
+    name : "tdnn_3"
+    inputOpti {
+        shift : 1
+        num : 1
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+    }
+}
+layerOptiConfig {
+    name : "tdnn_4"
+    inputOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+
+    sparseMatrixOpti {
+    }
+}
+layerOptiConfig {
+    name : "tdnn_5"
+    inputOpti {
+        shift : 1
+        num : 1
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+    }
+}
+layerOptiConfig {
+    name : "tdnn_6"
+    inputOpti {
+        shift : 1
+        num : 1
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+    }
+}
+layerOptiConfig {
+    name : "tdnn_7"
+    inputOpti {
+        shift : 1
+        num : 1
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+    }
+}
+layerOptiConfig {
+    name : "tdnn_8"
+    inputOpti {
+        shift : 1
+        num : 1
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+    }
+}
+layerOptiConfig {
+    name : "tdnn_9"
+    inputOpti {
+        shift : 1
+        num : 1
+    }
+    weightOpti {
+        shift : 1
+        num : 1
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+    }
+}

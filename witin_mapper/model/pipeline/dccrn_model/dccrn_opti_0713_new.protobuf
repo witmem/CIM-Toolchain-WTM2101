@@ -1,0 +1,233 @@
+layerOptiConfig {
+    name : "conv1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 2
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        multi_point : 4
+        tdnn_mode : true
+        
+    }
+}
+
+layerOptiConfig {
+    name : "conv2"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        multi_point : 2
+        tdnn_mode : true
+        
+    }
+}
+
+layerOptiConfig {
+    name : "conv3"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        multi_point : 1
+        tdnn_mode : true
+        
+    }
+}
+
+layerOptiConfig {
+    name : "conv4"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        multi_point : 1
+        tdnn_mode : true
+        
+    }
+}
+
+layerOptiConfig {
+    name : "lstm5"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+
+layerOptiConfig {
+    name : "linear6"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 128
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+
+layerOptiConfig {
+    name : "deconv7"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 112
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        multi_point : 1
+        tdnn_mode : true
+        
+    }
+}
+
+layerOptiConfig {
+    name : "deconv8"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        multi_point : 2
+        tdnn_mode : true
+        
+    }
+}
+
+layerOptiConfig {
+    name : "deconv9"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        multi_point : 2
+        tdnn_mode : true
+        
+    }
+}
+
+layerOptiConfig {
+    name : "deconv10"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        multi_point : 8
+        tdnn_mode : true
+        
+    }
+}

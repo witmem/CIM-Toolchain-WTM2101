@@ -1,0 +1,59 @@
+The introduction of filter.config to control the log of simulatot execution:
+
+1.dump log option
+  filter_dump_data:
+   option of show the execution log of simulato
+    0: turn on the log
+    1: trun off the log
+   default value is 1
+
+2.round option
+ 2.1.filter_round
+   option of show the round execution log of simulator
+    0: print the log related round execution
+    1: filter the log related round execution
+   default value is 1
+ 2.2.filter_min_round_idx
+   start round index of log, default value is 0
+ 2.3.filter_max_round_idx
+   end round index of log, default value is -1, which means all the log
+ 
+3.flow option
+ 3.1.filter_flow
+   option of show the flow execution log of simulator 
+    0: print the log related flow execution
+    1: filter the log related flow execution
+   default value is 1
+ 3.2.filter_min_flow_idx
+   start flow index of log, default value is 0
+ 3.3.filter_max_flow_idx
+   end flow index of log, default value is -1, which means all the log
+ 
+4.frame option
+ 4.1 filter_frame
+   option of show the frame execution log of simulator 
+    0: print the log related frame execution
+    1: filter the log related frame execution
+   default value is 1
+ 4.2.filter_min_frame_idx
+    start frame index of log, default value is 0
+ 4.3.filter_max_frame_idx
+    end frame index of log, default value is -1, which means all the log
+ 
+5.net option
+ 5.1.filter_net
+   option of show the net execution log of simulator
+    0: print the log related net execution
+    1: filter the log related net execution
+   default value is 1
+ 5.2.filter_min_net_idx
+    start net index of log, default value is 0
+ 5.3.filter_max_net_idx
+    end net index of log, default value is -1, which means all the log
+ 
+6.regfile option
+  filter_regfile
+   option of show the net execution log of simulator
+    0: print the log related regfile execution
+    1: filter the log related regfile execution
+   default value is 1

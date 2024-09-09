@@ -1,0 +1,18 @@
+layerOptiConfig {
+    name : "net0_Conv2DOpNode1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 1
+    }
+    sparseMatrixOpti {
+        sp_mode : SIM_MODE
+    }
+}
