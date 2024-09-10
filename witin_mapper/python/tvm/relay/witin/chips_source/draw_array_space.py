@@ -256,61 +256,57 @@ def render(img, font_normal, font_large, config, configs, i, max_width):
 
 def draw_array_space(layer_txt, out_path):
     i = 0
-    print(layer_txt)
-    if os.path.exists(layer_txt) and os.path.getsize(layer_txt) > 0:
-        configs = np.loadtxt(layer_txt, dtype=np.int16, delimiter=',')
-        
-        if (configs.size == 0):
-            return
-        if (configs.size == 7):
-            max_width = configs[3]
-        if (configs.size != 7):
-            max_width = configs.max(axis=0)[1]
-        img, font_normal, font_large = create_image(10, max_width)
-        for cfg in configs:
-            render(img, font_normal, font_large, cfg,
-                configs, i, max_width)
-            i = i + 1
+    configs = np.loadtxt(layer_txt, dtype=np.int16, delimiter=',')
+    if (configs.size == 0):
+        return
+    if (configs.size == 7):
+        max_width = configs[3]
+    if (configs.size != 7):
+        max_width = configs.max(axis=0)[1]
+    img, font_normal, font_large = create_image(10, max_width)
+    for cfg in configs:
+        render(img, font_normal, font_large, cfg,
+               configs, i, max_width)
+        i = i + 1
 
-        # draw marks
-        draw = ImageDraw.Draw(img)
-        loc = (200, 1993, max_width + 200, 2005)
-        draw.rectangle(loc, fill="#ffff33")
-        loc = (PADDING + max_width/2, 1785 + PADDING)
-        draw.text(loc, "bias", font=font_normal, fill='black')
-        for loc, color in GRIDS:
-            draw.line(loc, fill=color)
+    # draw marks
+    draw = ImageDraw.Draw(img)
+    loc = (200, 1993, max_width + 200, 2005)
+    draw.rectangle(loc, fill="#ffff33")
+    loc = (PADDING + max_width/2, 1785 + PADDING)
+    draw.text(loc, "bias", font=font_normal, fill='black')
+    for loc, color in GRIDS:
+        draw.line(loc, fill=color)
 
-        # dump image
-        fnout = out_path + '/array_space.png'
-        print('create', fnout)
-        img.save(fnout)
+    # dump image
+    fnout = out_path + '/array_space.png'
+    print('create', fnout)
+    img.save(fnout)
 
 
 if __name__ == '__main__':
     i = 0
-    if os.path.exists("./layers.txt") and os.path.getsize("./layers.txt") > 0:
-        configs = np.loadtxt("./layers.txt", dtype=np.int16, delimiter=',')
-        if (configs.ndim == 1):
-            max_width = configs[3]
-        else:
-            max_width = configs.max(axis=0)[1]
-        img, font_normal, font_large = create_image(10, max_width)
-        for cfg in configs:
-            render(img, font_normal, font_large, cfg,
-                configs, i, max_width)
-            i = i + 1
+    configs = np.loadtxt("./layers.txt", dtype=np.int16, delimiter=',')
+    if (configs.ndim == 1):
+        max_width = configs[3]
+    else:
+        max_width = configs.max(axis=0)[1]
+    img, font_normal, font_large = create_image(10, max_width)
+    for cfg in configs:
+        render(img, font_normal, font_large, cfg,
+               configs, i, max_width)
+        i = i + 1
 
-        # draw marks
-        draw = ImageDraw.Draw(img)
-        loc = (200, 1993, max_width + 200, 2005)
-        draw.rectangle(loc, fill="#ffff33")
-        loc = (PADDING + 512, 1785 + PADDING)
-        draw.text(loc, "bias", font=font_normal, fill='black')
-        for loc, color in GRIDS:
-            draw.line(loc, fill=color)
+    # draw marks
+    draw = ImageDraw.Draw(img)
+    loc = (200, 1993, max_width + 200, 2005)
+    draw.rectangle(loc, fill="#ffff33")
+    loc = (PADDING + 512, 1785 + PADDING)
+    draw.text(loc, "bias", font=font_normal, fill='black')
+    for loc, color in GRIDS:
+        draw.line(loc, fill=color)
 
-        # dump image
-        fnout = './array_space.png'
-        print('create', fnout)
-        img.save(fnout)
+    # dump image
+    fnout = './array_space.png'
+    print('create', fnout)
+    img.save(fnout)

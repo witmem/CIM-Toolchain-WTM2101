@@ -17,7 +17,7 @@ os.environ['DMLC_LOG_DEBUG'] = '0'
 os.environ['SAVE_LOG_MESSAGE'] = '0'
 
 # The first N rows to retain array space are not allocated
-os.environ['ARRAY_ALLOC_RESERVED_COLUMN'] = '128'
+os.environ['ARRAY_ALLOC_RESERVED_COLUMN'] = '0'
 # Open the fifo in Regfile
 os.environ['WITIN_FIFO_EN'] = '0'
 # Compensation calibration data selected average frame
@@ -28,7 +28,7 @@ os.environ['WITIN_EXPECTED_NUM'] = '100'
 
 ########################## not change ##########################
 # witin_mapper version
-os.environ['WITIN_MAPPER_VERSION'] = "v001.003.000"
+os.environ['WITIN_MAPPER_VERSION'] = "v001.001.007"
 # tensorflow log level
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = "2"
 

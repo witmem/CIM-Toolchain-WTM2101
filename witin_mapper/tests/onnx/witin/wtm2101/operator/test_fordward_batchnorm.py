@@ -226,10 +226,10 @@ def run_batchnorm():
                                                                output_dir=build_dir,
                                                                optimize_method_config=opt_config)
     # execute
-    from tvm.contrib import npu_graph_runtime
-    m = npu_graph_runtime.create(npu_graph, "BB04P1", output_dir=build_dir)
-    m.set_input("in", witin.nd.array(data))
-    m.run()
+    # from tvm.contrib import npu_graph_runtime
+    # m = npu_graph_runtime.create(npu_graph, "BB04P1", output_dir=build_dir)
+    # m.set_input("in", witin.nd.array(data))
+    # m.run()
 
 
 def test_forward_batchnorm():

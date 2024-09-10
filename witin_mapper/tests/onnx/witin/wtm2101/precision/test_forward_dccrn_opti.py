@@ -370,13 +370,12 @@ def run_model():
     
     data = np.transpose(data, (0, 3, 2, 1)) # [1, 301, 128, 4]
     data = data.reshape(data.shape[0] * data.shape[1], 1, data.shape[2], data.shape[3]) # [301, 1, 128, 4]
-    print(data.shape)
+    
     # merge the adjacent 2 frame data, [301, 1, 128, 4] -> [300, 2, 128, 4]
     new_data = np.zeros([data.shape[0] - 1, data.shape[1] * 2, data.shape[2], data.shape[3]], dtype=data.dtype) 
     for n in range(data.shape[0] - 1):
       new_data[n, 0, :, :] = data[n, :, :, :]
       new_data[n, 1, :, :] = data[n + 1, :, :, :]
-    print(new_data.shape)
     
     shape_dict_conv = {}
     shape_dict_conv['in'] = (1, 2, 128, 301)  # NCHW
@@ -384,7 +383,8 @@ def run_model():
     
     input_dt = {}
     input_dt['in'] = witin.nd.array(new_data)
-    opt_config_files = [file_dir + 'dccrn_opti_0713_new.protobuf']
+    opt_config_files = [file_dir + 'dccrn_opti_0713_new.protobuf',
+                        file_dir + 'dccrn_opti_0713_new_partial_PN.protobuf']
     for opt_config in opt_config_files:
       #output file
       dateTimeObj = datetime.datetime.now()

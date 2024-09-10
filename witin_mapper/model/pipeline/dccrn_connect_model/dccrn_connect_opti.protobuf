@@ -217,7 +217,7 @@ layerOptiConfig {
         signed_input : 0
     }
     weightOpti {
-        shift : 0
+        shift : 10
         num : 0
     }
     doubleWeightOpti {

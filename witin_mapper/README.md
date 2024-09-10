@@ -893,11 +893,3 @@ DNN:
 
 ## v001.001.007
 支持dnn/conv输出通道大于array边界（大于1024，实际可用896，因为需避开前128列）时的自动拆分，增加concat输出配置
-
-## v001.002.000
-1.增加Conv intruction/params/输出/输出/补偿地址检查机制
-2.增加gru2array上板测试case,并实测OK
-
-## v001.003.000
-1.更新pn event测试case
-2.修复dccrn concat的debug.json

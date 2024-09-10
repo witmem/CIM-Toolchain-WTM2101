@@ -1,0 +1,94 @@
+layerOptiConfig {
+    name : "conv1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 2
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        multi_point : 1
+        tdnn_mode : true
+        
+    }
+}
+
+layerOptiConfig {
+    name : "conv2"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 8
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        multi_point : 1
+        tdnn_mode : true
+        
+    }
+}
+
+layerOptiConfig {
+    name : "gru1"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 392
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+}
+
+layerOptiConfig {
+    name : "conv3"
+    inputOpti {
+        shift : 0
+        num : 0
+        signed_input : 232
+    }
+    weightOpti {
+        shift : 0
+        num : 0
+    }
+    doubleWeightOpti {
+        multiple : 0
+    }
+    sparseMatrixOpti {
+        
+    }
+    convOpti {
+        multi_point : 1
+        tdnn_mode : true
+        
+    }
+}

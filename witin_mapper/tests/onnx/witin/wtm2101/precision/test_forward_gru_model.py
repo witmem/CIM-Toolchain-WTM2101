@@ -311,7 +311,8 @@ def test_model_case1():
     target = "npu"
     ctx = "npu"
     data = np.round(np.random.rand(111, 514) * 255).astype("float32")
-    opt_config_files = [root_dir + "/optimize_config_gru.protobuf"]
+    opt_config_files = [root_dir + "/optimize_config_gru.protobuf",
+           root_dir + "/optimize_config_gru_partial_PN.protobuf"]
     for opt_config in opt_config_files:
       tvm_out = get_tvm_output(onnx_model, 514, data, opt_config)
 
@@ -329,7 +330,7 @@ def test_model_case2():
 def test_gru_forward():
     np.random.seed(10)
     test_model_case1()
-    # test_model_case2()
+    test_model_case2()
 
 if __name__ == '__main__':
     test_gru_forward()
